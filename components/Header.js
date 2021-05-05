@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaGooglePlusG } from 'react-icons/
 import Hamburger from './Hamburger'
 
 import theme from '../styles/theme'
-const { site, color, dim, dim: { air, lin, rad }, media, font, dur } = theme;
+const { site, color, media } = theme;
 
 const Header = ({ navState }) => {
 

@@ -36,9 +36,7 @@ const theme = {
 
   dim: {
     air: 32,
-    rad: 16,
-    lin: 2,
-    block: 40,
+    rad: 4,
   },
 
   font: {

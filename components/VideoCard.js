@@ -1,14 +1,7 @@
-
-import { useState } from 'react'
-import { blocking } from './util'
-
 import Link from 'next/link'
-import { FaPlusCircle, FaMinusCircle } from 'react-icons/fa';
-
-import { mainNavItems } from '../data'
 
 import theme from '../styles/theme'
-const { site, color, dim, dim: { air, lin, rad }, media, font, dur } = theme;
+const { color, dim: { air } } = theme;
 
 
 const VideoCard = ({ video }) => {
@@ -53,8 +46,6 @@ export const VcList = ({ videos = [] }) => {
       )}
 
       <style jsx>{`
-
-        .list { }
 
         .item { padding: 0 }
         .item:before { display: none }

@@ -1,9 +1,6 @@
 
-import { FaFacebookF, FaTwitter, FaInstagram, FaGooglePlusG } from 'react-icons/fa';
-
-
 import theme from '../styles/theme'
-const { site, color, dim, dim: { air, lin, rad }, media, font, dur } = theme;
+const { color, dur } = theme;
 
 const Hamburger = ({
   size = 50,

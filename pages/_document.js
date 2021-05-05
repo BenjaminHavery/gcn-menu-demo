@@ -20,30 +20,15 @@ class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <link rel="icon" href="/favicon.ico" />
-
-
           <link
             rel="preconnect"
             href="https://fonts.gstatic.com"
             crossOrigin="true"
           />
-          {/* <link
-            rel="preload"
-            as="style"
-            href={font.importUrl}
-          /> */}
-          {/* <link
+          <link
             rel="stylesheet"
-            href={fonts.importUrl}
-            media="print"
-            onLoad="this.media='all'" // This isn't working :/
+            href={font.importUrl}
           />
-          <noscript> */}
-            <link
-              rel="stylesheet"
-              href={font.importUrl}
-            />
-          {/* </noscript> */}
         </Head>
         <body>
           <Main />

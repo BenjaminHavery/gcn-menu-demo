@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F","\u002Fpresenters\u002F[presenterSlug]","\u002F[topicSlug]","\u002Fvideo\u002F[urlTitle]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

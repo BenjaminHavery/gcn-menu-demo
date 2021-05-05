@@ -3,7 +3,7 @@ import Layout from '../../components/Layout'
 import { VcList } from '../../components/VideoCard'
 import Video from '../../components/Video'
 
-import { fetchVideos, videos } from '../../data'
+import { fetchVideos } from '../../data'
 
 
 export default function video({ video, videos }) {

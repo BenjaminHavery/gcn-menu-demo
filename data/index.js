@@ -26,6 +26,7 @@ export async function fetchVideos() {
 }
 
 
+// Mock data for nav:
 export const topics = [
   'GCN Show',
   'How To',
@@ -66,6 +67,3 @@ export const mainNavItems = [
   ...topics,
   { title: 'Presenters', slug: 'presenters', href: '/presenters', children: presenters },
 ]
-
-
-

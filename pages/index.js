@@ -5,16 +5,11 @@ import { VcList } from '../components/VideoCard'
 
 import { fetchVideos, videosByDay } from '../data'
 
-import * as dayjs from 'dayjs'
-dayjs().format()
-
 
 export default function Home({ videos }) {
-  console.log('render with', videos);
+
   const latest = videos[0],
         others = videos.filter(v => v._id !== latest._id);
-
-  console.log(dayjs(latest.publishDate).format('DD/MM/YYYY'));
 
   return (
     <Layout>

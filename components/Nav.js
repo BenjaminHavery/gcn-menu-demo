@@ -8,7 +8,7 @@ import { FaPlusCircle, FaMinusCircle } from 'react-icons/fa';
 import { mainNavItems } from '../data'
 
 import theme from '../styles/theme'
-const { site, color, dim, dim: { air, lin, rad }, media, font, dur } = theme;
+const { color, dim: { air }, media } = theme;
 
 
 const Nav = ({ router }) => {
@@ -21,10 +21,6 @@ const Nav = ({ router }) => {
         .nav {
           color: ${color.white};
           background: ${color.black};
-        }
-        
-        @media ${media.up.lg} {
-
         }
       `}</style>
     </nav>

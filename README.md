@@ -1,7 +1,7 @@
 
-This is a test piece for GCN by me, Ben Havery.
+## A test piece for GCN by me, Ben Havery
 
-I got a little carried away while working on it so every page in the main nav menu got reproduced; there's plenty to see if you poke around!
+I got a little carried away while working on this so every page in the main nav menu got reproduced; there's plenty to see if you poke around!
 
 ## Things that have changed
 
@@ -12,11 +12,10 @@ I got a little carried away while working on it so every page in the main nav me
 - The header is also visible while scrolling the nav menu, so the menu is easier to close.
 - The nav menu and hamburger have a transition.
 
-## To view this project
+## To view this project either
 
-You can either:
 - [Visit the demo site](https://amazing-pare-46d2ca.netlify.app/), or
-- Download the /_ExportForGCN directory and open index.html
+- Replicate the /_ExportForGCN directory and open index.html
 
 ## To develop this project
 

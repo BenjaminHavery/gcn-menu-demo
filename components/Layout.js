@@ -10,7 +10,7 @@ import Header from './Header'
 import Nav from './Nav'
 
 import theme from '../styles/theme'
-const { site, color, dim, dim: { air, lin, rad }, media, font, dur } = theme;
+const { site, color, dim: { air }, media, dur } = theme;
 
 const Layout = ({ children }) => {
 
@@ -79,7 +79,7 @@ const Layout = ({ children }) => {
           flex-flow: column nowrap;
           align-items: stretch;
           justify-content: flex-start;
-          padding: ${dim.air/2}px;
+          padding: ${air/2}px;
         }
 
         .search {
@@ -123,10 +123,6 @@ const Layout = ({ children }) => {
             transition: transform ${dur.fast}s ease;
           }
           .layout.nav-open > :global(.nav) { transform: none }
-
-        }
-        @media ${media.up.lg} {
-          
 
         }
       `}</style>
