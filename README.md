@@ -1,7 +1,9 @@
 
 ## A test piece for GCN by me, Ben Havery
 
-I got a little carried away while working on this so every page in the main nav menu got reproduced; there's plenty to see if you poke around!
+I got a little carried away so every page in the main nav menu got reproduced; there's plenty to see if you poke around!
+
+To the confused non-GCN-employee checking out my repositories, this project is a < 1 day demonstration of mobile navigation improvements for [the GCN website](https://www.globalcyclingnetwork.com/).
 
 ## Things that have changed
 
